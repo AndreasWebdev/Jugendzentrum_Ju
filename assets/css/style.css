@@ -8,8 +8,23 @@ body {
 header {
   margin-top: 25px;
 }
+header .back {
+  height: 100px;
+  margin-right: 20px;
+  float: left;
+  line-height: 100px;
+  transition: 0.2s ease all;
+}
+header .back:hover {
+  opacity: 0.2;
+}
+header .back i {
+  font-size: 2em;
+  color: #000;
+}
 header .logo {
   height: 100px;
+  float: left;
 }
 section[data-section="grid"] {
   margin-top: 25px;
@@ -76,6 +91,18 @@ section[data-section="grid"] article .text p {
   line-height: 1.25;
   opacity: 0.8;
   -webkit-font-smoothing: antialiased;
+}
+section[data-section="page"] {
+  margin-top: 25px;
+}
+section[data-section="page"] h1 {
+  font-weight: 300;
+  font-size: 1.5em;
+}
+section[data-section="page"] p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  line-height: 1.5;
 }
 h1,
 h2,
