@@ -5,11 +5,14 @@
 == 14.07.2017 ==
 - Über uns fertiggestellt
 - Index fertiggestellt
-- Events fertiggestellt
 - Freizeitangebote fertiggestellt
 - Impressum fertiggestellt
 
 == 04.07.2017 ==
 - Über uns angefangen
 - Index texte fertiggestellt
+- Events fertiggestellt
+
+== 27.06.2017 ==
+- Style Änderungen
 - Events angefangen
