@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Kontakt ~ Jugendzentrum JU!</title>
+      <meta charset="utf-8" />
+
+      <link rel="stylesheet" href="assets/css/reset.css" />
+      <link rel="stylesheet" href="assets/css/grid.css" />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/style.css" />
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="assets/js/main.js"></script>
+      <script src="assets/js/contactForm.js"></script>
+    </head>
+    <body>
+      <header>
+        <div class="container">
+          <div class="col-md-12">
+            <a href="index.htm"><div class="back"><i class="material-icons">arrow_back</i></div></a>
+            <img src="assets/img/logo.svg" alt="JU! Jugendzentrum Dreikamptal" class="logo" />
+          </div>
+        </div>
+      </header>
+
+      <section data-section="page">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>Kontakt</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              Trete mit unserem Team in Kontakt! Wir antworten E-Mails für gewöhnlich innerhalb einer Woche, meistens sogar innerhalb 2-3 Tagen!<br /><br />
+              Also los, schütte dein Herz aus oder frag uns alles, was du uns jemals fragen wolltest!
+            </div>
+            <div class="col-md-8">
+              <div class="contact-form">
+                <div class="form-item">
+                  <div class="label">Dein Betreff</div>
+                  <input type="text" placeholder="Anfrage wegen..." id="contactSubject" class="form-control" />
+                </div>
+                <div class="form-item">
+                  <div class="label">Deine Nachricht</div>
+                  <textarea rows="6" placeholder="Guten Tag,..." id="contactText" class="form-control"></textarea>
+                </div>
+                <button id="submitContact">Absenden</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+  </html>

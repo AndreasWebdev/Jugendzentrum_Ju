@@ -2,8 +2,9 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
-  background: #f1f1f1;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0px, rgba(0, 0, 0, 0) 300px), #f1f1f1;
   line-height: 1.25;
+  min-height: 100vh;
 }
 h1,
 h2,
@@ -116,6 +117,17 @@ section[data-section="page"] .row.expired-event {
 section[data-section="page"] .row h1 {
   font-weight: 300;
   font-size: 1.75em;
+  margin-bottom: 10px;
+}
+section[data-section="page"] .row h1:after {
+  content: "";
+  width: 50px;
+  margin-top: -20px;
+  margin-left: calc(-51vw);
+  width: 50vw;
+  height: 2px;
+  background: #1565c0;
+  display: block;
 }
 section[data-section="page"] .row h2 {
   font-size: 1.25em;
@@ -151,6 +163,38 @@ section[data-section="page"] .row button:hover {
   background: #1565c0;
   color: #fff;
   cursor: pointer;
+}
+section[data-section="page"] .row .contact-form .form-item {
+  display: block;
+  margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+section[data-section="page"] .row .contact-form .form-item .label {
+  padding: 10px 0px;
+}
+section[data-section="page"] .row .contact-form .form-item input,
+section[data-section="page"] .row .contact-form .form-item textarea {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+  border: 2px solid #969696;
+}
+section[data-section="page"] .row .contact-form .form-item input:focus,
+section[data-section="page"] .row .contact-form .form-item textarea:focus,
+section[data-section="page"] .row .contact-form .form-item input:active,
+section[data-section="page"] .row .contact-form .form-item textarea:active {
+  border-color: #1565c0;
+  outline: 0;
+}
+section[data-section="page"] .row .contact-form button {
+  float: right;
+}
+section[data-section="page"] .row .contact-form button:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 .lightbox-image {
   cursor: pointer;
