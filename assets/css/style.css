@@ -147,6 +147,12 @@ section[data-section="page"] .row p {
 section[data-section="page"] .row img {
   max-width: 100%;
 }
+section[data-section="page"] .row a {
+  color: #1565c0;
+}
+section[data-section="page"] .row a:hover {
+  text-decoration: none;
+}
 section[data-section="page"] .row button {
   font-size: 0.9em;
   letter-spacing: 0.15em;
